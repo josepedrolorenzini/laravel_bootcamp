@@ -1,0 +1,197 @@
+FTP Username: webmaster@marable.com.au
+FTP server: ftp.marable.com.au
+FTP & explicit FTPS port:  21
+@luisJp81@
+
+
+wander.php
+find /path-of-www -type f -printf '%TY-%Tm-%Td %TT %p\n' | sort -r
+
+
+new database
+
+marablecom_december
+marablecom_december
+pi33c9wtg8wh
+
+
+wordpresss marable
+webking
+jose@marbleceramiccorp.com.au
+@luisJp81@
+
+UPDATE `wp_users` 
+SET `user_pass` = MD5('$P$BEaCu1aIPhC41InUO2XW1U8V3mX.BO.'), `user_nicename` = 'webmaster', `user_email` = 'jose@marbleceramiccorp.com.au'
+ WHERE `wp_users`.`ID` = 2;
+
+UPDATE `wp_users` SET `user_login` = 'webmaster' WHERE `wp_users`.`ID` = 2;
+
+UPDATE `wp_users` SET `user_login` = 'webmaster' 
+WHERE `wp_users`.`ID` = 2;
+
+Marable DNS
+Name Server 1
+ns1.continuousinksupplysystem.com.au
+162.241.153.151
+
+Name Server 2
+ns2.continuousinksupplysystem.com.au
+162.241.7.130
+
+cloudflare 
+
+quentin.ns.cloudflare.com
+sierra.ns.cloudflare.com
+
+
+
+
+Marbleceramiccorp.com.au
+
+Name Server 1	ns1.continuousinksupplysystem.com.au		162.241.153.151
+Name Server 2	ns2.continuousinksupplysystem.com.au		162.241.7.130
+
+cloudflare MCC
+ada.ns.cloudflare.com
+karl.ns.cloudflare.com
+
+
+
+176473147746016
+
+
+This domain is not owned by a business manager account. To verify this domain, cancel this request and go back to your domain dashboard to select "Add a domain."
+
+
+
+
+webmaster@luxmarble.com.au 
+@@fed2181@z
+v153jde9f6s0
+
+
+rsvp@luxmarble.com.au
+@rluxau9199@
+
+
+accounts@luxmarble.com.au
+@rau9199@
+
+
+override/classes/Link.php
+getImageLink($name, $ids, $type = null)
+i am using this function to redirect  luxmarble7 images  to luxmarble.com.au images
+and httacces
+
+
+reviews
+quality images
+if slabs and tiles
+regenerate images
+
+luxmarble.com.au
+database:
+ luxmarbl_dev
+
+
+
+google merchant center
+item ID - to disable
+MCCAU4352
+MCCAU4773
+MCCAU6061
+
+facebook
+info@mir-aus.com
+PRE566$$
+
+TAWK chat
+social_chat@luxmarble.com.au
+@Lux10glxx
+
+
+
+Prestashop 8
+password : @Luxmarble1234
+
+
+prestashop 8 admin
+http://localhost:8080/prestashop_8/admin626fe4bxszn2hmexhae/
+E-mail	jose@marbleceramiccorp.com.au	 Print my login information
+Password	@Luxmarble1234
+
+
+http://localhost:8080/mcc_1_7_6_7/install/index.php
+database
+prestashop_mcc_1767
+@Mcc1234
+
+
+E-mail	joseplorenzini@gmail.com
+Password	@Mcc1234
+
+
+cpanel : 
+https://162.241.153.151:2083/
+
+
+marbleceramiccorp.com.au
+marblesh
+password old : NETbro@@956%
+new password : HvmNlvnkxoMv
+
+
+luxmarble database -
+ luxmarbl_dev
+
+changes in modal luxmarble
+img class = js-modal
+$product.cover.large.url
+to
+$product.cover.bySize.extra_large_products.url
+
+changes in module
+dd_producimagehover
+change images when you hover it
+create variable in ff_product_image_hover
+
+
+marble ceramic corp add more products
+
+
+mongoDB (cluster)
+username : m001-student
+password: m001-mongodb-basic
+ip adress 0.0.0.0/0
+
+
+
+
+
+wp-admin
+https://fibraestudio.cl/mirror/
+https://fibraestudio.cl/mirror/wp-admin/
+manager
+@skateordie81
+
+cloudflare
+fibra estudio 
+adele.ns.cloudflare.com
+damien.ns.cloudflare.com
+
+ianhcampbell@gmail.com
+campbell1984
+
+fibraestudio
+@hiF8419
+
+DNS server jp
+ns2.dnsmisitio.net
+ns1.dnsmisitio.net
+
+
+
+mongosh "mongodb+srv://sandbox.fhsi7yc.mongodb.net/MDBU" --apiVersion 1 --username m001-student
+
+
+

@@ -1,0 +1,2 @@
+@dump($result)
+{{ $consolelog}}

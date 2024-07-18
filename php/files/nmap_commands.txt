@@ -1,0 +1,89 @@
+    1  apt install nmap -y
+    2  y
+    3  sudo apt install nmap -y
+    4  man
+    5  man sudo
+    6  root
+    7  ls
+    8  sudo nmap
+    9  sudo passwd jp
+   10  sudo -i
+   11  sudo root
+   12  sudo passwd
+   13  ls
+   14  dir
+   15  ls
+   16  nmpa
+   17  nmap
+   18  sudo apt install nmap
+   19  whereami
+   20  location
+   21  help
+   22  dir
+   23  svn checkout https://svn.nmap.org/nmap-mswin32-aux.
+   24  nmap
+   25  sudo install nmap -y
+   26  nmap
+   27  sudo apt install nmap
+   28  sudo apt update
+   29  sudo apt full-upgrade
+   30  sudo apt updateq
+   31  sudo apt update
+   32  sudo apt install x11-apps
+   33  xeyes &
+   34  xcalc
+   35  xcalc &
+   36  q
+   37  sudo apt install nmap
+   38  nmap
+   39  sudo nmap -sS -p 80,443 172.20.10.7
+   40  sudo nmap -sS -p 80,443 192.168.56.1
+   41  sudo nmap -sS -p 80,443 172.29.144.1
+   42  sudo nmap -sS -p 80,443 120.18.203.138
+   43  sudo nmap -sS -p 80,443 162.241.153.197
+   44  sudp nmap -sT 162.241.153.198    ---> mirali
+	 sudp nmap -sT 162.241.153.197   ----> mcc
+	 sudo nmap -O 10.7.1.226
+       sudo nmap -O 162.241.153.197
+	 sudo nmap -O 162.241.153.198
+   45  history
+		sudo nmap -sS -p * 43.250.140.30  dlorenzo
+
+https://www.youtube.com/watch?v=4t4kBkMsDbQ
+https://linuxhint.com/become-root-user-linux/
+https://www.hostinger.com/tutorials/bash-array
+https://linuxhint.com/associative_array_bash/
+https://nmap.org/man/es/man-host-discovery.html
+https://techtalk.gfi.com/scanning-open-ports-in-windows-part-3-nmap/
+https://techtalk.gfi.com/scan-open-ports-in-windows-a-quick-guide/
+https://www.freecodecamp.org/news/bash-array-how-to-declare-an-array-of-strings-in-a-bash-script/
+https://www.javatpoint.com/bash-for-loop
+https://nmap.org/book/install.html#inst-download
+https://opensource.com/article/18/3/how-reset-windows-password-linux
+https://itsfoss.com/reset-linux-password-wsl/
+https://stackabuse.com/array-loops-in-bash/
+https://unix.stackexchange.com/questions/552505/nano-able-to-read-on-write-only-access-file
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+https://linuxconfig.org/linux-commands
+https://linuxconfig.org/bash-scripting-tutorial
+https://itsfoss.com/unable-to-locate-package-error-ubuntu/
+https://nmap.org/book/nse-usage.html#nse-categories
+https://hackertarget.com/using-nmap-on-windows/
+https://techtalk.gfi.com/scanning-open-ports-in-windows-part-3-nmap/
+https://dev.to/krishnaagarwal/20-git-commands-every-developer-should-know-27o7
+https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#4-configure-ubuntu
+https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#5-install-and-use-a-gui-package
+https://www.howtogeek.com/790062/how-to-install-bash-on-windows-11/https://linuxconfig.org/how-to-install-missing-ifconfig-command-on-debian-linux
+
+
+installing wsl windows
+
+sudo apt update
+sudo apt full-upgrade
+sudo apt install x11-apps
+
+
+PROMPT windows 
+
+netstat –an ¦find /i “listening”
+:80
