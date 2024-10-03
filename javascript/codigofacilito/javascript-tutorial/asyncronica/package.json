@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "request-promises": "^1.1.0",
+    "reuest": "^0.0.1-security"
+  }
+}

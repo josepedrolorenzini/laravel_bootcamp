@@ -1,0 +1,4 @@
+vision general del ecosistema fullstack 
+bootcamp
+let x = 'bel'
+i

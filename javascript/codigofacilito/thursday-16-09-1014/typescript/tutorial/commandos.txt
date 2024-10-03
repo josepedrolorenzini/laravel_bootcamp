@@ -1,0 +1,14 @@
+  31 mkdir typescript
+  32 mkdir material1
+  33 ls
+  34 cd .\typescript\
+  35 npm install -g ts-node
+  36 npm install -g typescript...
+  37 nvm use 20.8.0
+  38 node -v
+  39 mkdir cf-typescript
+  40 ls
+  41 cd .\cf-typescript\
+  42 npm init
+  43 touch index.ts
+  44 npm install typescript --save-dev
