@@ -1,5 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react' ; 
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline' ; 
+import { useRouter } from 'next/router'; // implementing this feature soon
 import Link from 'next/link';
 import React from 'react';
  
@@ -11,10 +12,10 @@ const user = {
     'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
 }
 const navigation = [
-  { name: 'Home', href: '/', current: true },
+  { name: 'Home', href: '/', current: false },
   { name: 'Portafolio', href: '/portafolio', current: false },
-  { name: 'Rick and Morty', href: '/rickandmorty', current: false },
-  { name: 'link 2', href: '#', current: false },
+  { name: 'Rick and Morty', href: '/rickandmorty', current: true },
+  { name: 'json jobs', href: 'jobs', current: false },
   { name: 'link 3', href: '#', current: false },
 ]
 const userNavigation = [
@@ -31,8 +32,9 @@ interface LayoutProps {
     children: React.ReactNode;
     titulo: string;
   }
-  const Template: React.FC<LayoutProps> = ({ children , titulo }) => {
-
+const Template: React.FC<LayoutProps> = ({ children , titulo }) => {
+ 
+  console.log(navigation)
    
   return (
     <>
@@ -64,7 +66,7 @@ interface LayoutProps {
                         href={item.href}
                         aria-current={item.current ? 'page' : undefined}
                         className={classNames(
-                          item.current != false ? `bg-gray-900 text-white` : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          item.current  ? `bg-gray-900 text-white` : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'rounded-md px-3 py-2 text-sm font-medium',
                         )}>
                         {item.name}
