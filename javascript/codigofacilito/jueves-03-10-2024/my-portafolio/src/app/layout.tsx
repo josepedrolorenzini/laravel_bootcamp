@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "./components/navbar";
+import Template from "./components/template";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -13,6 +13,10 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const fullWidth = {
+  maxWidth: "1440px",
+  margin: "0 auto",
+}
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,10 +29,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
+    <html lang="en"  className="h-full bg-gray-100">
+      <body 
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Navbar />
+        <Template children={undefined} titulo={""} />
         {children}
       </body>
     </html>

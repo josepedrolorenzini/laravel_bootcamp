@@ -1,5 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react' ; 
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline' ; 
+import Link from 'next/link';
 import React from 'react';
  
 
@@ -10,9 +11,9 @@ const user = {
     'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
 }
 const navigation = [
-  { name: 'Home', href: '/', current: false },
-  { name: 'Portafolio', href: '/portafolio', current: true },
-  { name: 'link 1', href: '#', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'Portafolio', href: '/portafolio', current: false },
+  { name: 'Rick and Morty', href: '/rickandmorty', current: false },
   { name: 'link 2', href: '#', current: false },
   { name: 'link 3', href: '#', current: false },
 ]
@@ -30,9 +31,9 @@ interface LayoutProps {
     children: React.ReactNode;
     titulo: string;
   }
+  const Template: React.FC<LayoutProps> = ({ children , titulo }) => {
 
-  const Navbar: React.FC<LayoutProps> = ({ children , titulo }) => {
-
+   
   return (
     <>
       {/*
@@ -58,17 +59,16 @@ interface LayoutProps {
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4">
                     {navigation.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
                         href={item.href}
                         aria-current={item.current ? 'page' : undefined}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          item.current != false ? `bg-gray-900 text-white` : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'rounded-md px-3 py-2 text-sm font-medium',
-                        )}
-                      >
+                        )}>
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -190,4 +190,4 @@ interface LayoutProps {
 }
 
 
-export default Navbar;
+export default Template;

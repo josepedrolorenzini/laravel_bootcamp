@@ -1,0 +1,26 @@
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 70px; /* Adjust padding to account for the fixed nav */
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .product h2 {
+    margin-top: 0;
+  }
+  
+  .product .price {
+    font-weight: bold;
+    color: green;
+  }
+  
+ 
+  
