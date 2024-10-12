@@ -1,0 +1,10 @@
+
+route handlers
+
+Metodos http 
+get export async function GET(request:request){}
+post 
+put 
+patch
+delete
+
