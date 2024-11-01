@@ -1,5 +1,7 @@
 "use client";
 import { useEffect, useState } from 'react';
+import Link from 'next/link' ; 
+
 
 interface jobInterface {
   id: number;
@@ -22,13 +24,15 @@ export default function jobs() {
 
   return (
     <>
-    <div>
+    <div className='container'>
 
-      <p className='content-center'>job page</p>
+      <h2 className='content-center'>job page</h2>
       {data.map( job => {
         return (
           <div key={job.id} className='container'>
-            <h2>{job.title}</h2>
+           <Link href={`/jobs/${job.id}`} >  
+           <h2 className="title">{job.title}</h2> 
+           </Link>
             <p>{job.description}</p>
             <p>{job.location}</p>
             <p>{job.salary}</p>

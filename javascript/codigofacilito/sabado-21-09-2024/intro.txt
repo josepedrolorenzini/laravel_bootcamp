@@ -2,3 +2,8 @@ vision general del ecosistema fullstack
 bootcamp
 let x = 'bel'
 i
+
+next js
+basicas : /basica 
+subrutes: /about/me
+dinamicas : /[nombre]

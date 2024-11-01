@@ -16,7 +16,7 @@ export default function page(props: portfolio): JSX.Element {
       <h1>{content}</h1>
       {JOB.map( product => (
         <div className="product" key={product.id}>
-        <Link href={`/jobs/${product.id}`} > 
+        <Link href={`/portafolio/${product.id}`} > 
         <h2>{product.name}</h2>
         </Link>
           <p>{product.description}</p>

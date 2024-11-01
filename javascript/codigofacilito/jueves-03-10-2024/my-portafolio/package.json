@@ -13,7 +13,7 @@
     "@headlessui/react": "^2.1.9",
     "@heroicons/react": "^2.1.5",
     "next": "^14.2.14",
-    "react": "^18",
+    "react": "^19.0.0-rc-09111202-20241011",
     "react-dom": "^18"
   },
   "devDependencies": {

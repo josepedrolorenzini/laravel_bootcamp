@@ -5,14 +5,19 @@
     padding-top: 70px; /* Adjust padding to account for the fixed nav */
   }
   
-  .product {
+  .box {
     border: 1px solid #ccc;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 5px;
   }
 
-  .product .title {
+  .box .title {
+    font-weight: bold;
+    color: green;
+  }
+
+  .title{
     font-weight: bold;
     color: green;
   }

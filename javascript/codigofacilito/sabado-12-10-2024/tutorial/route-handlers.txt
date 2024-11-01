@@ -8,3 +8,9 @@ put
 patch
 delete
 
+
+
+install react canary
+npm i react@rc  
+npm i react-dom@rc
+npm i next@canary
